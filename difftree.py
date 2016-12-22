@@ -38,7 +38,7 @@ for x in (args.dir1, args.dir2):
 		sys.exit(255)
 
 # --- option validation
-if args.chunk < 1024:
+if args.chunk < 1:
 	args.chunk = DEFAULT_BLOCK_SIZE
 
 # --- for throwing exceptions
