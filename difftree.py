@@ -144,11 +144,12 @@ try:
 	print("The following files have a different checksum in {}:".format(dir2.root))
 	for i in (comfiles):
 		if (sha256(os.path.join(dir1.root, i)) != sha256(os.path.join(dir2.root, i))):
-			print("diff {}".format(i))
+			print("diff_file {}".format(i))
 		#else:
 		#	print(".".format(i), sep='')
 
 except OSError as e:
 	print("{}: {}".format(str(e.filename), e.strerror), file=sys.stderr)
+
 except PathError as e:
 	print("{}: {}".format(e.path, e.message), file=sys.stderr)
