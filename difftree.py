@@ -1,6 +1,6 @@
 #! /usr/bin/env python3
 
-_author__        = "James Ng"
+__author__        = "James Ng"
 __copyright__     = "Copyright 2016 James Ng"
 __license__       = "GPL"
 __version__       = "1.0"
