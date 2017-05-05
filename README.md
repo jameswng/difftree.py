@@ -1,5 +1,5 @@
 
-##DIFFTREE.PY
+## DIFFTREE.PY
 
 *difftree.py* compares two directories and determines how dir2 differs from dir1
 ```
